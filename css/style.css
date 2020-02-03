@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Open+Sans:400,600,700,800&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-size: 1000;
+}
+h1{
+	color: #28377e;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+p{
+	color:##b0b0b1;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width: 90%;
+	margin:auto;
+	overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.logo{
+	width: 20%;
+	
+}
+.nav{
+	width: 60%;
+	
+}
+.nav ul{
+		
+text-transform: uppercase;	
+display: flex;	
+justify-content: flex-end;
+}
+.nav ul li{
+	float: left;
+	margin-left: 30px;
+	
+}
+.nav ul li a{}
+.banner{
+	 background-image: url("../img/bnr.png");
+	height:400px;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.content{
+	width: 515px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.content h1{
+	color:#fff;
+	font-size: 50px;
+}
+.icon{
+	position: absolute;
+	top: 20;
+	bottom: 20%;
+	right: 50%;
+	transform: translate(-50%, -20%);
+	animation: icon-animate 1s linear infinite;
+	animation-duration: alternate;
+}
+.icon i{
+
+color: #fff;
+font-size: 2em;
+}
+
+@keyframes icon-animate {
+  0%, 100% {
+    transform: translate(-50%, 0%);
+  }
+  50% {
+    transform: translate(-50%, -100%);
+  }
+}
+.containt{}
+.who_we_are_content{
+	width:30%;
+	float:left;
+}
+.who_we_are_img{
+	width:30%;
+	float:right;
+}
